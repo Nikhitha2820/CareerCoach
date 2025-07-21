@@ -17,6 +17,8 @@ def ingest_resume(file_path: str) -> None:
     Returns:
         None
     """
+
+    print(f"Processing resume: {file_path}")
     # Step 1: Load and extract text from resume PDF
     loader = PyPDFLoader(file_path)
     documents = loader.load()

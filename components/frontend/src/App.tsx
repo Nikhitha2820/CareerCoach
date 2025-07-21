@@ -22,7 +22,6 @@ function App() {
       <AuthProvider>
         <Router>
           <Routes>
-            {/* <div>Test</div> */}
             <Route path="/login" element={<AuthForm />} />
             <Route
               path="/dashboard"
